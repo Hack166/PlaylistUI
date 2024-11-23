@@ -8,7 +8,7 @@ struct Song: Identifiable {
 }
 
 let sampleSongs = [
-    Song(title: "The Planets,Op.32:IV.Jup...", artist: "Boston Symphony Orchestra...", albumArt: "album1"),
-    Song(title: "Symphony No.7 in E Major...", artist: "Vienna Philharmonic & Herbert...", albumArt: "album2"),
-    Song(title: "Symphony No.9 in D Minor...", artist: "Berlin Philharmonic & Herbert...", albumArt: "album3")
+    Song(title: "Post Malone,Swae Lee-Sunflower", artist: "Boston Symphony Orchestra...", albumArt: "album1"),
+    Song(title: "Ed Sheeran-Perfect", artist: "Vienna Philharmonic & Herbert...", albumArt: "album2"),
+    Song(title: "Ed Sheeran-Shape of You", artist: "Berlin Philharmonic & Herbert...", albumArt: "album3")
 ]

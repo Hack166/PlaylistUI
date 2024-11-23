@@ -2,9 +2,24 @@ import SwiftUI
 
 struct SearchView: View {
     var body: some View {
-        Text("Search")
-            .font(.largeTitle)
-            .bold()
+        NavigationView {
+            
+            HStack {
+                Text("Search")
+                    .font(.largeTitle)
+                    .bold()
+                Spacer()
+                Button(action: {
+                    // 能按下
+                }) {
+                    Image(systemName: "person.crop.circle")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .foregroundStyle(.black)
+                }
+            }
+            .padding()
+        }
     }
 }
 

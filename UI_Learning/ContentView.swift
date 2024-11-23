@@ -1,10 +1,10 @@
 import SwiftUI
 
+
 struct ContentView: View {
+    @StateObject var audioPlayer = AudioPlayer()
     var body: some View {
         TabView {
-            
-            
             HomeView()
                 .tabItem {
                     Image(systemName: "house")
@@ -25,8 +25,9 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                     Text("Search")
-                }
+            }
         }
+        .environmentObject(audioPlayer)
     }
 }
 
